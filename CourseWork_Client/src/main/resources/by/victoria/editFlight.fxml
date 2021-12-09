@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17"
+            fx:controller="by.victoria.controller.EditFlightController">
+    <children>
+        <TextField fx:id="Text_Field_Edit_admin_FROM" layoutX="135.0" layoutY="91.0" promptText="Откуда"/>
+        <Button fx:id="Button_Edit_admin" layoutX="174.0" layoutY="293.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="230.0" text="Редактировать"/>
+        <TextField fx:id="Text_Field_Edit_admin_WHERE" layoutX="307.0" layoutY="91.0" promptText="Куда"/>
+        <Text layoutX="139.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Маршрут"/>
+        <Text layoutX="140.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Вылет"/>
+        <TextField fx:id="Text_Field_Edit_admin_CountSeats" layoutX="307.0" layoutY="200.0"/>
+        <Text layoutX="308.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Количество мест"/>
+        <Text layoutX="308.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Прибытие"/>
+        <TextField fx:id="Text_Field_Edit_admin_DATEARRIVAL" layoutX="307.0" layoutY="146.0"/>
+        <Button fx:id="Button_Back_admin" layoutX="25.0" layoutY="371.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="147.0" text="Назад"/>
+        <TextField fx:id="Text_Field_Edit_admin_IDflight" layoutX="135.0" layoutY="43.0"/>
+        <Text layoutX="139.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="№ Рейса"/>
+        <TextField fx:id="Text_Field_Edit_admin_DATEGEPARTURE" layoutX="135.0" layoutY="148.0"/>
+        <Text layoutX="308.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена"/>
+        <TextField fx:id="Text_Field_Edit_admin_Price" layoutX="307.0" layoutY="41.0"/>
+    </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity"
+            prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17"
+            fx:controller="by.victoria.controller.RegistrationController">
+    <children>
+        <Text layoutX="72.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0"
+              text="Авиакомпания &quot;Пингвин&quot;" wrappingWidth="513.470703125">
+            <font>
+                <Font size="36.0"/>
+            </font>
+        </Text>
+        <TextField fx:id="Text_Field_login_registration" layoutX="199.0" layoutY="128.0" prefHeight="25.0"
+                   prefWidth="193.0"/>
+        <TextField fx:id="Text_Field_password_registration" layoutX="204.0" layoutY="188.0"
+                   prefHeight="25.0" prefWidth="193.0"/>
+        <Button fx:id="ButtonId_registration" layoutX="203.0" layoutY="273.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="193.0" text="Зарегистрироваться"/>
+        <Text layoutX="199.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите логин"/>
+        <Text layoutX="205.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Введите пароль"/>
+        <Text fill="#cd2323" layoutX="205.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация"
+              wrappingWidth="165.470703125">
+            <font>
+                <Font size="24.0"/>
+            </font>
+        </Text>
+        <TextField fx:id="Text_Field_password_registration_repeat" layoutX="204.0" layoutY="234.0"
+                   prefHeight="25.0" prefWidth="193.0"/>
+        <Text layoutX="205.0" layoutY="230.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Повторите пароль"/>
+        <Button fx:id="ButtonId_registration_Back" layoutX="14.0" layoutY="361.0" mnemonicParsing="false"
+                prefHeight="25.0" prefWidth="144.0" text="Назад"/>
+    </children>
+</AnchorPane>

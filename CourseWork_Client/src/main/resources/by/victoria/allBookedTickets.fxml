@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17"
+            fx:controller="by.victoria.controller.AllBookedTicketsController">
+    <children>
+        <AnchorPane layoutX="1.0" layoutY="2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+                    minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <Text layoutX="63.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0"
+                      text="Все забронированные  билеты">
+                    <font>
+                        <Font size="24.0"/>
+                    </font>
+                </Text>
+                <Button fx:id="Button_client_CANSELRESERVATION" layoutX="417.0" layoutY="25.0" mnemonicParsing="false"
+                        prefHeight="30.0" prefWidth="144.0" style="-fx-background-color: #ff4040;" text="Отменить бронь"
+                        underline="true">
+                    <font>
+                        <Font size="14.0"/>
+                    </font>
+                </Button>
+                <TableView fx:id="Table_ALLBOOKEDTICKETS_client" layoutX="30.0" layoutY="61.0" prefHeight="332.0"
+                           prefWidth="531.0">
+                    <columns>
+                        <TableColumn fx:id="Table_ALLBOOKEDTICKETS_client_FROM" prefWidth="75.0" text="Откуда"/>
+                        <TableColumn fx:id="Table_ALLBOOKEDTICKETS_client_WHERE" prefWidth="75.0" text="Куда"/>
+                        <TableColumn fx:id="Table_ALLBOOKEDTICKETS_client_DATEDEPARTURE" prefWidth="114.0"
+                                     text="Вылет"/>
+                        <TableColumn fx:id="Table_ALLBOOKEDTICKETS_client_DATEARRIVAL" prefWidth="160.0"
+                                     text="Прибытие"/>
+                        <TableColumn fx:id="Table_ALLBOOKEDTICKETS_client_PlaceNumber" prefWidth="53.0" text="Места"/>
+                        <TableColumn fx:id="Table_ALLBOOKEDTICKETS_client_PRICE" prefWidth="51.0" text="Цена"/>
+                    </columns>
+                </TableView>
+                <Button fx:id="Button_client_BACK" layoutX="6.0" layoutY="2.0" mnemonicParsing="false" text="Назад"/>
+                <Button fx:id="Button_client_BUY" layoutX="80.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0"
+                        prefWidth="71.0" text="Купить"/>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

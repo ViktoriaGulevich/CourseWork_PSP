@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity"
+            prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17"
+            fx:controller="by.victoria.controller.BuyingTicketController">
+    <children>
+        <Text layoutX="57.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Имя"
+              wrappingWidth="32.44921875"/>
+        <Text layoutX="55.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Фамилия"/>
+        <Text layoutX="55.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Номер паспорта"/>
+        <TextField fx:id="Text_Field_client_buyticket_name" layoutX="57.0" layoutY="94.0"/>
+        <TextField fx:id="Text_Field_client_buyticket_surname" layoutX="57.0" layoutY="143.0"/>
+        <TextField fx:id="Text_Field_client_buyticket_NumberPassport" layoutX="57.0" layoutY="200.0"/>
+        <Text layoutX="54.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Гружданстов"/>
+        <TextField fx:id="Text_Field_client_buyticket_Citizenship" layoutX="57.0" layoutY="257.0"/>
+        <Button fx:id="Button_client_buyticket_BUY" layoutX="330.0" layoutY="207.0" mnemonicParsing="false"
+                prefHeight="75.0" prefWidth="222.0" style="-fx-background-color: #ADFF2F;" text="Купить">
+            <font>
+                <Font size="24.0"/>
+            </font>
+        </Button>
+        <Text layoutX="337.0" layoutY="99.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена"
+              wrappingWidth="32.44921875"/>
+        <TextField fx:id="Text_Field_client_buyticket_Prc" layoutX="330.0" layoutY="114.0" editable="false"/>
+        <Button fx:id="Button_client_buyticket_BACK" layoutX="14.0" layoutY="353.0" mnemonicParsing="false"
+                prefHeight="25.0" prefWidth="71.0" text="Назад"/>
+    </children>
+</AnchorPane>

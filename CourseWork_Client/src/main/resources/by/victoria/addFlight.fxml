@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="by.victoria.controller.AddFlightController">
+    <children>
+        <TextField fx:id="Text_Field_Add_admin_FROM" layoutX="125.0" layoutY="81.0" promptText="Откуда"/>
+        <Button fx:id="Button_Add_admin" layoutX="164.0" layoutY="301.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="230.0" text="Добавить"/>
+        <TextField fx:id="Text_Field_Add_admin_WHERE" layoutX="297.0" layoutY="81.0" promptText="Куда"/>
+        <Text layoutX="129.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Маршрут"/>
+        <Text layoutX="130.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дата вылета"/>
+        <TextField fx:id="Text_Field_Add_admin_Time" layoutX="297.0" layoutY="138.0"/>
+        <Text layoutX="298.0" layoutY="136.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Время"/>
+        <DatePicker fx:id="Text_Field_Add_admin_DATEDEPARTURE" layoutX="125.0" layoutY="138.0" prefHeight="25.0"
+                    prefWidth="149.0" promptText="Дата"/>
+        <Button fx:id="Button_Back_admin" layoutX="15.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0"
+                prefWidth="147.0" text="Назад"/>
+        <TextField fx:id="Text_Field_Add_admin_CountSeats" layoutX="125.0" layoutY="260.0"/>
+        <Text layoutX="126.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Количество мест"/>
+        <Text layoutX="301.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Цена билета"/>
+        <TextField fx:id="Text_Field_Add_admin_Price" layoutX="300.0" layoutY="258.0"/>
+        <Text layoutX="131.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дата прилета"/>
+        <TextField fx:id="Text_Field_Add_admin_Time1" layoutX="298.0" layoutY="199.0"/>
+        <Text layoutX="299.0" layoutY="197.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Время"/>
+        <DatePicker fx:id="Text_Field_Add_admin_DATEARRIVAL" layoutX="126.0" layoutY="199.0" prefHeight="25.0"
+                    prefWidth="149.0" promptText="Дата"/>
+    </children>
+</AnchorPane>
